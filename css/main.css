@@ -293,8 +293,10 @@
     color: #424242;
 }
 
-#works article img{
-    width: 33.33%;
+#works img{
+    width: 100%;
+    /* 2 = 50% */
+    /* 3 = 33.33%*/
 }
 
 .flex{
