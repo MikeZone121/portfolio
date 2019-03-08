@@ -1,17 +1,57 @@
 /*MEDIAQUERRYS*/
 @media screen and (max-width: 1440px) {
-  .nav > img {
-    width: 15%;
+  .container {
+    width: 980px;
 }
 
-.nav.small img{
-  -ms-transition:     all 0.3s ease-out;
-  -moz-transition:    all 0.3s ease-out;
-  -webkit-transition: all 0.3s ease-out;
-  -o-transition:      all 0.3s ease-out;
-  transition:         all 0.3s ease-out;
-  width: 12% !important;
+  .nav > img {
+    width: 10%;
 }
+
+.nav ul li {
+    font-size: 20px;
+}
+
+header h1 {
+    font-size: 40px;
+}
+
+header h1 img {
+    width: 5%;
+}
+
+.container2 {
+    top: 90px;
+    right: -71px;
+}
+
+.particle-wrap {
+    width: 1000px;
+    height: 430px;
+}
+
+.boog-header {
+    background-position-y: 350px;
+}
+
+.boog-design {
+    padding-bottom: 20%;
+}
+
+#info {
+    height: 80vh;
+}
+
+#design {
+    padding-bottom: 20%;
+    padding-top: 18%;
+}
+
+.boog-front {
+    background-position-y: 500px;
+}
+
+
 }
 
 @media screen and (max-width: 1300px) {
