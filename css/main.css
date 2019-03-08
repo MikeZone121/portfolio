@@ -13,7 +13,7 @@ header > nav {
     position: relative;
     top: 20px;
     left: 0px;
-    z-index: 1;
+    z-index: 9999;
     -webkit-user-select: none;
     user-select: none;
     width: 10%;
@@ -243,7 +243,7 @@ header > nav {
     align-items: center;
     flex-direction: column-reverse;
     justify-content: center;
-    height: 60vh;
+    height: 80vh;
 }
 
 #design article {
@@ -278,7 +278,7 @@ header > nav {
     background-image: url(../images/boog-back.png);
     background-repeat: no-repeat;
     background-size: cover;
-    background-position-y: 300px;
+    background-position-y: 330px;
 }
 
 #front {
@@ -328,13 +328,13 @@ header > nav {
     background-image: url(../images/boog-back.png);
     background-repeat: no-repeat;
     background-size: cover;
-    background-position-y: 400px;
+    background-position-y: 430px;
 }
 
 #back {
     width: 100%;
     padding-bottom: 40%;
-    padding-top: 10%;
+    padding-top: 40%;
     display: flex;
     align-items: center;
     flex-direction: column-reverse;
@@ -377,12 +377,12 @@ header > nav {
 /* Works */
 #works {
     width: 100%;
-    padding-bottom: 10%;
+    padding-bottom: 40%;
     display: flex;
     align-items: center;
     flex-direction: column;
     justify-content: center;
-    padding-top: 10%;
+    padding-top: 30%;
 }
 
 #works > h1{
