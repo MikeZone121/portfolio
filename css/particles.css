@@ -11,6 +11,7 @@
     transform-style: preserve-3d;
     top: 130px;
     right: -100px;
+    display: none;
 }
 
 .particle-wrap {

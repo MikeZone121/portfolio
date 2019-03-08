@@ -15,12 +15,8 @@
 }
 
 .container{
-    width: 1200px;
-    margin: auto;
-}
-
-nav{
-  height: 80px;
+    width: 90%;
+    margin: none;
 }
 
 .hide-bullets {
@@ -84,7 +80,7 @@ header h1{
     display: block;
     position: absolute;
     top: 45%;
-    font-size: 50px;
+    font-size: 20px;
     color: #444444;
     display: flex;
     align-items: center;
@@ -101,13 +97,17 @@ header h1 .pijl-r{
     margin-left: 5%
 }
 
+header h1 img {
+    width: 8%;
+}
+
 header h2{
     width: 100%;
     text-align: center;
     display: block;
     position: absolute;
-    top: 60%;
-    font-size: 30px;
+    top: 55%;
+    font-size: 15px;
     color: #444444;
 }
 
