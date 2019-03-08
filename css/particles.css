@@ -9,27 +9,27 @@
     width: 100%;
     min-height: 50vh;
     transform-style: preserve-3d;
-    top: 130px;
-    right: -100px;
-    display: none;
+    top: 70px;
+    right: 0px;
 }
 
 .particle-wrap {
-  margin: 0 auto;
-  width: 1200px;
-  height: 600px;
-  transform-style: preserve-3d;
-  transform-origin: center center;
-  perspective: 200px;
-  overflow: hidden;
+    margin: 0 auto;
+    width: 370px;
+    height: 400px;
+    transform-style: preserve-3d;
+    transform-origin: center center;
+    perspective: 200px;
+    overflow: hidden;
 }
+
 .particle {
   position: absolute;
   background: black;
   opacity: .7;
   border-radius: 50%;
   animation: move 8s infinite;
-  
+
 }
 
 .particle:nth-child(1) {

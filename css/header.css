@@ -4,8 +4,7 @@
     background-color: white;
     background-repeat: no-repeat;
     background-size: cover;
-    background-position-y: 460px;
-    padding-bottom: 6%;
+    background-position-y: 230px;
 }
 
 #hoogte {
@@ -16,7 +15,7 @@
 
 .container{
     width: 90%;
-    margin: none;
+    margin: auto;
 }
 
 .hide-bullets {
@@ -74,13 +73,13 @@
     opacity: 0.9;
 }
 
-header h1{
-    width: 100%;;
+header h1 {
+    width: 100%;
     text-align: center;
     display: block;
     position: absolute;
-    top: 45%;
-    font-size: 20px;
+    top: 35%;
+    font-size: 26px;
     color: #444444;
     display: flex;
     align-items: center;
@@ -89,16 +88,8 @@ header h1{
     z-index: 999;
 }
 
-header h1 .pijl-l{
-    margin-right: 5%
-}
-
-header h1 .pijl-r{
-    margin-left: 5%
-}
-
 header h1 img {
-    width: 8%;
+    display: none;
 }
 
 header h2{
@@ -106,7 +97,7 @@ header h2{
     text-align: center;
     display: block;
     position: absolute;
-    top: 55%;
+    top: 47%;
     font-size: 15px;
     color: #444444;
 }
