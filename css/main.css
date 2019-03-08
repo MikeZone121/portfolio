@@ -278,16 +278,12 @@
     padding-top: 10%;
 }
 
-#works article {
-    display: flex;
-    width: 100%;
-}
-
-#works article > h1{
+#works > h1{
     color: #ff0000;
     letter-spacing: 2;
-    font-size: 25pt;
+    font-size: 30pt;
     font-family: brandon-bold;
+    padding-bottom: 5%;
 }
 
 #works article > p{
@@ -301,61 +297,9 @@
     width: 33.33%;
 }
 
-/* ---- button ---- */
-
-.button {
-    border: 0;
-    width: 200px;
-    padding: 10px;
-    margin: 20px auto;
-    color: #000000;
-    background: #fbfbfb;
-    -webkit-box-shadow: 0 3px 1px #fbfbfb;
-    -moz-box-shadow: 0 3px 1px #ff200f;
-    box-shadow: 0 3px 1px #f5f4f4;
-    display: block;
-    text-decoration: none;
-    text-align: center;
-    font-size: 15pt;
-    font-family: brandon-regular;
-}
-
-.button:hover {background: #b23737;}
-.button:active {
-    margin-top: 22px;
-    -webkit-box-shadow: 0 1px 1px #950d0d;
-       -moz-box-shadow: 0 1px 1px #950d0d;
-            box-shadow: 0 1px 1px #950d0d;
-}
-/* ---- button-group ---- */
-
-.button-group:after {
-  content: '';
-  display: block;
-  clear: both;
-}
-
-.button-group .button {
-  float: left;
-  border-radius: 0;
-  margin-left: 0;
-}
-
-.button-group .button:first-child { border-radius: 0.5em 0 0 0.5em; }
-.button-group .button:last-child { border-radius: 0 0.5em 0.5em 0; }
-
-/* ---- isotope ---- */
-
-.grid {
-  background: #EEE;
-  max-width: 1200px;
-}
-
-/* clear fix */
-.grid:after {
-  content: '';
-  display: block;
-  clear: both;
+.flex{
+    display: flex;
+    flex-direction: row;
 }
 /************/
 

@@ -32,6 +32,7 @@ header h1 img {
 
 .boog-header {
     background-position-y: 350px;
+    padding-bottom: 14%;
 }
 
 .boog-design {
@@ -49,6 +50,14 @@ header h1 img {
 
 .boog-front {
     background-position-y: 500px;
+}
+
+#design {
+    padding-bottom: 40%;
+}
+
+#front {
+    padding-top: 21%;
 }
 
 
