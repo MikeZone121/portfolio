@@ -406,9 +406,9 @@ header > nav {
     /* 3 = 33.33%*/
 }
 
-.flex{
+.flex {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
 }
 /************/
 

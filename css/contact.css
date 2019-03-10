@@ -3,7 +3,7 @@
     padding: 1% 0%;
     position: absolute;
     width: 100%;
-    background: #26A65Bb8;
+    background: #ff0000b8;
     text-align: center;
     bottom: 0;
     margin: 0;
@@ -76,7 +76,7 @@ input.used ~ label {
     transform: scale(.75);
     left: -2px;
     /* font-size: 14px; */
-    color: #26A65B;
+    color: #ff0000;
 }
 
 .highlight {
