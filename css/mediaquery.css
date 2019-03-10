@@ -510,19 +510,28 @@ footer p{
 /************/
 
 /* Particles */
-
 .container2 {
     position: absolute;
     width: 100%;
     min-height: 50vh;
     transform-style: preserve-3d;
-    top: 130px;
-    right: -100px;
+    top: 20px;
+    right: -73px;
     display: block;
+}
+
+.particle-wrap {
+    margin: 0 auto;
+    width: 900px;
+    height: 600px;
+    transform-style: preserve-3d;
+    transform-origin: center center;
+    perspective: 200px;
+    overflow: hidden;
 }
 /************/
 }
-/* Macbook 
+/* Macbook
 @media screen and (min-width: 1040px) {
   .container {
     width: 980px;

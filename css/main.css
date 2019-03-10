@@ -134,7 +134,7 @@ header > nav {
 #info article > h1 {
     color: #ff0000;
     letter-spacing: 2;
-    font-size: 17pt;
+    font-size: 20pt;
     font-family: brandon-bold;
     margin-top: 15%;
 }
@@ -256,7 +256,7 @@ header > nav {
 #design article > h1{
     color: #ff0000;
     letter-spacing: 2;
-    font-size: 17pt;
+    font-size: 20pt;
     font-family: brandon-bold;
     margin-top: 15%;
 }
@@ -300,7 +300,7 @@ header > nav {
 #front article > h1{
     color: #ff0000;
     letter-spacing: 2;
-    font-size: 17pt;
+    font-size: 20pt;
     font-family: brandon-bold;
     margin-top: 15%;
 }
@@ -351,7 +351,7 @@ header > nav {
 #back article > h1{
     color: #ff0000;
     letter-spacing: 2;
-    font-size: 17pt;
+    font-size: 20pt;
     font-family: brandon-bold;
     margin-top: 15%;
 }
@@ -388,7 +388,7 @@ header > nav {
 #works > h1{
     color: #ff0000;
     letter-spacing: 2;
-    font-size: 30pt;
+    font-size: 20pt;
     font-family: brandon-bold;
     padding-bottom: 5%;
 }
@@ -427,10 +427,10 @@ footer{
   margin-bottom: 0;
 }
 
-footer p{
-  margin-left: 144px;
-  font-size: 8pt;
-  margin-bottom: 5px;
-  margin-top: 5px;
+footer p {
+    margin-left: 6%;
+    font-size: 8pt;
+    margin-bottom: 5px;
+    margin-top: 5px;
 }
 /************/
