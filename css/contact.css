@@ -12,7 +12,7 @@
 
 #contact {
     width: 100%;
-    padding-top: 30%;
+    padding-top: 13%;
     padding-bottom: 20%;
     display: -webkit-box;
     display: -ms-flexbox;
@@ -162,7 +162,7 @@ input.used ~ label {
     color: #ff0000;
     letter-spacing: 2;
     font-size: 20pt;
-    padding-bottom: 10%;
+    padding-bottom: 5%;
     font-family: brandon-bold;
 }
 
