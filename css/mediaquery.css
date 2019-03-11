@@ -402,7 +402,7 @@ nav.fill ul li a:hover:after {
     background-image: url(../images/boog-back.png);
     background-repeat: no-repeat;
     background-size: cover;
-    background-position-y: 400px;
+    background-position-y: 360px;
 }
 
 #back {
@@ -451,12 +451,11 @@ nav.fill ul li a:hover:after {
 /* Works */
 #works {
     width: 100%;
-    padding-bottom: 10%;
+    padding-bottom: 30%;
     display: flex;
     align-items: center;
     flex-direction: column;
     justify-content: center;
-    padding-top: 10%;
 }
 
 #works > h1{
