@@ -1,31 +1,22 @@
 /*MEDIAQUERRYS*/
 /* Desktop */
+@media screen and (min-width: 1800px) {
 
+}
 
 /*Macbook*/
-@media screen and (min-width: 1200px) {
+@media screen and (min-width: 1400px) {
   /****************HEADER******************/
 #desktop {
     display: block;
 }
 
 .boog-header {
-    background-image: url(../images/boog-design.png);
-    background-color: white;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position-y: 460px;
-    padding-bottom: 6%;
-}
-
-#hoogte {
-    height: 70vh;
-    position: relative;
-    min-height: 350px;
+    background-position-y: 190px !important;
 }
 
 .container{
-    width: 1200px;
+    width: 900px;
     margin: auto;
 }
 
@@ -84,31 +75,24 @@ nav{
 }
 
 .nav > img {
-    width:10%;
+    width:12%;
     padding-top: 1%;
     opacity: 0.9;
 }
 
 header h1{
-    top: 52%;
-}
-
-header h1 .pijl-l{
-    margin-right: 5%
-}
-
-header h1 .pijl-r{
-    margin-left: 5%
+    top: 50% !important;
+    font-size: 30pt !important;
 }
 
 header h2{
-    width: 100%;
-    text-align: center;
-    display: block;
-    position: absolute;
-    top: 60%;
-    font-size: 30px;
-    color: #444444;
+    top: 65% !important;
+    font-size: 20pt !important;
+}
+
+.container2 {
+    top: 24px !important;
+    right: -72px !important;
 }
 
 #menuToggle{
@@ -192,7 +176,8 @@ nav.fill ul li a:hover:after {
     flex-direction: row;
     justify-content: center;
     height: 40vh;
-    padding-bottom: 4%;
+    padding-bottom: 10% !important;
+    padding-top: 10% !important;
 }
 
 #info article {
@@ -201,12 +186,13 @@ nav.fill ul li a:hover:after {
     position: relative;
     text-align: left;
     padding-left: 5%;
+    
 }
 
 #info article > h1{
     color: #ff0000;
     letter-spacing: 2;
-    font-size: 25pt;
+    font-size: 20pt;
     font-family: brandon-bold;
 }
 
@@ -225,6 +211,7 @@ nav.fill ul li a:hover:after {
 
 #info img{
   padding-right: 10%;
+  width: 40% !important;
 }
 
 #info button{
@@ -341,15 +328,13 @@ nav.fill ul li a:hover:after {
 
 #design img{
   padding-left: 10%;
+  width: 40% !important;
 }
 /************/
 
 /* Front-end */
 .boog-front {
-    background-image: url(../images/boog-back.png);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position-y: 300px;
+    background-position-y: 360px !important;
 }
 
 #front {
@@ -385,6 +370,7 @@ nav.fill ul li a:hover:after {
 
 #front img{
   padding-right: 10%;
+  width: 40% !important;
 }
 /************/
 
@@ -436,6 +422,7 @@ nav.fill ul li a:hover:after {
 
 #back img{
   padding-left: 10%;
+  width: 40% !important;
 }
 /************/
 
@@ -550,7 +537,7 @@ footer p{
 }
 
 #design img {
-    width: 50% !important;
+    width: 50%;
 }
 
 #front {
@@ -558,7 +545,7 @@ footer p{
 }
 
 #front img {
-    width: 50% !important;
+    width: 50%;
 }
 
 #back {
@@ -566,11 +553,11 @@ footer p{
 }
 
 #back img {
-    width: 50% !important;
+    width: 50%;
 }
 
 #works > h1 {
-    font-size: 30pt !important;
+    font-size: 30pt;
 }
 
 
