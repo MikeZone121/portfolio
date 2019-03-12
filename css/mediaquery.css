@@ -1,29 +1,107 @@
 /*MEDIAQUERRYS*/
-/* Desktop */
-@media screen and (min-width: 1800px) {
+/*iPad 768px */
+@media screen and (min-width: 768px) {
 .boog-header {
-    background-position-y: 310px !important;
-}
-
-header h1 {
-    top: 41% !important;
-    font-size: 30pt !important;
-}
-
-header h2 {
-    top: 50% !important;
-    font-size: 20pt !important;
+    background-position-y: 360px;
 }
 
 .container2 {
-    top: 154px !important;
-    right: -72px !important;
+    top: 120px;
+    right: -30px;
 }
 
-.container{
+header h1 {
+    font-size: 35pt;
+}
+
+header h2 {
+    top: 51%;
+    font-size: 20pt;
+}
+
+#info {
+    padding-top: 20%;
+}
+
+#info article > h1 {
+    font-size: 22pt;
+}
+
+#info article > p {
+    font-size: 18pt;
+}
+
+#info button {
+    font-size: 18pt;
+}
+
+#design {
+    padding-top: 10%;
+}
+
+#design article > h1 {
+    font-size: 22pt;
+}
+
+#design article > p {
+    font-size: 18pt;
+}
+
+.boog-front {
+    background-position-y: 510px;
+}
+
+#front article > h1 {
+    font-size: 22pt;
+}
+
+#front article > p {
+    font-size: 18pt;
+}
+
+.boog-back-end {
+    background-position-y: 580px;
+}
+
+#back{
+    padding-top: 23%;
+}
+
+#back article > h1 {
+    font-size: 22pt;
+}
+
+#back article > p {
+    font-size: 18pt;
+}
+
+#works {
+    padding-top: 0%;
+}
+
+#works > h1 {
+    font-size: 25pt;
+}
+
+#contact {
+    width: 100%;
+    padding-top: 15%;
+    padding-bottom: 20%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    font-family: brandon-light;
+    align-items: center;
+    flex-direction: column-reverse;
+    justify-content: center;
+}
+
+#contact h1 {
+    font-size: 25pt;
+}
 
 }
-}
+/*********************************************/
 
 /*Macbook*/
 @media screen and (min-width: 1400px) {
@@ -197,7 +275,7 @@ nav.fill ul li a:hover:after {
     flex-direction: row;
     justify-content: center;
     height: 40vh;
-    padding-bottom: 10% !important;
+    padding-bottom: 33% !important;
     padding-top: 20% !important;
 }
 
@@ -406,13 +484,13 @@ nav.fill ul li a:hover:after {
     background-image: url(../images/boog-back.png);
     background-repeat: no-repeat;
     background-size: cover;
-    background-position-y: 360px;
+    background-position-y: 430px;
 }
 
 #back {
     width: 100%;
-    padding-bottom: 40%;
-    padding-top: 10%;
+    padding-bottom: 20%;
+    padding-top: 5%;
     display: flex;
     align-items: center;
     flex-direction: row;
@@ -461,6 +539,7 @@ nav.fill ul li a:hover:after {
     align-items: center;
     flex-direction: column;
     justify-content: center;
+    padding-top: 10%;
 }
 
 #works > h1{
@@ -509,7 +588,7 @@ footer p {
     font-size: 12pt;
     margin-bottom: 5px;
     margin-top: 5px;
-    margin-left: 0;
+    margin-left: 3%;
 }
 /************/
 
@@ -534,161 +613,40 @@ footer p {
     overflow: hidden;
 }
 }
-
-
-/*iPad 1024px */
-@media screen and (min-width: 1024px) {
-#menu {
-    margin: -100px 0 0 -53px;
-}
-
+/* Desktop */
+@media screen and (min-width: 1800px) {
 .boog-header {
-    background-position-y: 290px;
-}
-
-#info img {
-    width: 50%;
-}
-
-#info {
-    padding-top: 28%;
-}
-
-.boog-design {
-    padding-bottom: 35%;
-}
-
-#design img {
-    width: 50%;
-}
-
-#front {
-    padding-bottom: 30%;
-}
-
-#front img {
-    width: 50%;
-}
-
-#back {
-    padding-top: 10%;
-}
-
-#back img {
-    width: 50%;
-}
-
-#works > h1 {
-    font-size: 30pt;
-}
-
-
-}
-
-
-/*iPad 768px */
-@media screen and (min-width: 768px) {
-.boog-header {
-    background-position-y: 360px;
-}
-
-.container2 {
-    top: 120px;
-    right: -30px;
+    background-position-y: 310px !important;
 }
 
 header h1 {
-    font-size: 35pt;
+    top: 41% !important;
+    font-size: 30pt !important;
 }
 
 header h2 {
-    top: 51%;
-    font-size: 20pt;
+    top: 50% !important;
+    font-size: 20pt !important;
 }
 
-#info {
-    padding-top: 20%;
+.container2 {
+    top: 154px !important;
+    right: -72px !important;
 }
 
-#info article > h1 {
-    font-size: 22pt;
+.boog-back-end {    
+    background-position-y: 360px;
 }
 
-#info article > p {
-    font-size: 18pt;
-}
-
-#info button {
-    font-size: 18pt;
-}
-
-#design {
-    padding-top: 10%;
-}
-
-#design article > h1 {
-    font-size: 22pt;
-}
-
-#design article > p {
-    font-size: 18pt;
-}
-
-.boog-front {
-    background-position-y: 510px;
-}
-
-#front article > h1 {
-    font-size: 22pt;
-}
-
-#front article > p {
-    font-size: 18pt;
-}
-
-.boog-back-end {
-    background-position-y: 580px;
-}
-
-#back{
-    padding-top: 23%;
-}
-
-#back article > h1 {
-    font-size: 22pt;
-}
-
-#back article > p {
-    font-size: 18pt;
+#back {
+    padding-bottom: 30%;
+    padding-top: 5%;
 }
 
 #works {
-    padding-top: 0%;
+    padding-bottom: 40%;
+    padding-top: 10%;
 }
-
-#works > h1 {
-    font-size: 25pt;
 }
-
-#contact {
-    width: 100%;
-    padding-top: 15%;
-    padding-bottom: 20%;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    font-family: brandon-light;
-    align-items: center;
-    flex-direction: column-reverse;
-    justify-content: center;
-}
-
-#contact h1 {
-    font-size: 25pt;
-}
-
-}
-/*********************************************/
-
 
 /*********/
