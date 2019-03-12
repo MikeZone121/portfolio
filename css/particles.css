@@ -10,7 +10,7 @@
     min-height: 50vh;
     transform-style: preserve-3d;
     top: 70px;
-    right: 0px;
+    right: -32px;
 }
 
 .particle-wrap {

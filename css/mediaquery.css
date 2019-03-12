@@ -1,7 +1,28 @@
 /*MEDIAQUERRYS*/
 /* Desktop */
 @media screen and (min-width: 1800px) {
+.boog-header {
+    background-position-y: 310px !important;
+}
 
+header h1 {
+    top: 41% !important;
+    font-size: 30pt !important;
+}
+
+header h2 {
+    top: 50% !important;
+    font-size: 20pt !important;
+}
+
+.container2 {
+    top: 154px !important;
+    right: -72px !important;
+}
+
+.container{
+
+}
 }
 
 /*Macbook*/
@@ -12,7 +33,7 @@
 }
 
 .boog-header {
-    background-position-y: 190px !important;
+    background-position-y: 190px;
 }
 
 .container{
@@ -81,18 +102,18 @@ nav{
 }
 
 header h1{
-    top: 50% !important;
-    font-size: 30pt !important;
+    top: 50%;
+    font-size: 30pt;
 }
 
 header h2{
-    top: 65% !important;
-    font-size: 20pt !important;
+    top: 65%;
+    font-size: 20pt;
 }
 
 .container2 {
-    top: 24px !important;
-    right: -72px !important;
+    top: 24px;
+    right: -72px;
 }
 
 #menuToggle{
@@ -177,7 +198,7 @@ nav.fill ul li a:hover:after {
     justify-content: center;
     height: 40vh;
     padding-bottom: 10% !important;
-    padding-top: 10% !important;
+    padding-top: 20% !important;
 }
 
 #info article {
@@ -334,7 +355,7 @@ nav.fill ul li a:hover:after {
 
 /* Front-end */
 .boog-front {
-    background-position-y: 360px !important;
+    background-position-y: 360px;
 }
 
 #front {
@@ -497,15 +518,15 @@ footer p{
     width: 100%;
     min-height: 50vh;
     transform-style: preserve-3d;
-    top: 20px;
-    right: -73px;
+    top: 104px;
+    right: -72px;
     display: block;
 }
 
 .particle-wrap {
     margin: 0 auto;
     width: 900px;
-    height: 600px;
+    height: 410px;
     transform-style: preserve-3d;
     transform-origin: center center;
     perspective: 200px;
@@ -529,11 +550,11 @@ footer p{
 }
 
 #info {
-    padding-top: 28% !important;
+    padding-top: 28%;
 }
 
 .boog-design {
-    padding-bottom: 35% !important;
+    padding-bottom: 35%;
 }
 
 #design img {
@@ -541,7 +562,7 @@ footer p{
 }
 
 #front {
-    padding-bottom: 30% !important;
+    padding-bottom: 30%;
 }
 
 #front img {
@@ -549,7 +570,7 @@ footer p{
 }
 
 #back {
-    padding-top: 10% !important;
+    padding-top: 10%;
 }
 
 #back img {
