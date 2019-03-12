@@ -505,10 +505,11 @@ footer{
   margin-bottom: 0;
 }
 
-footer p{
-  font-size: 8pt;
-  margin-bottom: 5px;
-  margin-top: 5px;
+footer p {
+    font-size: 12pt;
+    margin-bottom: 5px;
+    margin-top: 5px;
+    margin-left: 0;
 }
 /************/
 

@@ -9,18 +9,19 @@
     width: 100%;
     min-height: 50vh;
     transform-style: preserve-3d;
-    top: 70px;
-    right: -32px;
+    top: 61px;
+    right: -10px;
 }
 
 .particle-wrap {
     margin: 0 auto;
-    width: 337px;
+    width: 300px;
     height: 400px;
     transform-style: preserve-3d;
     transform-origin: center center;
     perspective: 200px;
     overflow: hidden;
+    padding: 0;
 }
 
 .particle {
