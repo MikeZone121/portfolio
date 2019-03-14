@@ -1,24 +1,189 @@
 /*MEDIAQUERRYS*/
-/* Desktop */
-@media screen and (min-width: 1400px) {
-  /****************HEADER******************/
+/*iPad 768px */
+@media screen and (min-width: 768px) {
 .boog-header {
-    background-image: url(../images/boog-design.png);
-    background-color: white;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position-y: 460px;
-    padding-bottom: 6%;
+    background-position-y: 360px;
 }
 
-#hoogte {
-    height: 70vh;
-    position: relative;
-    min-height: 350px;
+.container2 {
+    top: 120px;
+    right: -30px;
+}
+
+header h1 {
+    font-size: 35pt;
+}
+
+header h2 {
+    top: 51%;
+    font-size: 20pt;
+}
+
+#info {
+    padding-top: 20%;
+}
+
+#info article > h1 {
+    font-size: 22pt;
+}
+
+#info article > p {
+    font-size: 18pt;
+}
+
+#info button {
+    font-size: 18pt;
+}
+
+#design {
+    padding-top: 10%;
+}
+
+#design article > h1 {
+    font-size: 22pt;
+}
+
+#design article > p {
+    font-size: 18pt;
+}
+
+.boog-front {
+    background-position-y: 510px;
+}
+
+#front article > h1 {
+    font-size: 22pt;
+}
+
+#front article > p {
+    font-size: 18pt;
+}
+
+.boog-back-end {
+    background-position-y: 580px;
+}
+
+#back{
+    padding-top: 23%;
+}
+
+#back article > h1 {
+    font-size: 22pt;
+}
+
+#back article > p {
+    font-size: 18pt;
+}
+
+#works {
+    padding-top: 0%;
+}
+
+#works > h1 {
+    font-size: 25pt;
+}
+
+#contact {
+    width: 100%;
+    padding-top: 15%;
+    padding-bottom: 20%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    font-family: brandon-light;
+    align-items: center;
+    flex-direction: column-reverse;
+    justify-content: center;
+}
+
+#contact h1 {
+    font-size: 25pt;
+}
+
+}
+/*********************************************/
+
+/*Ertussen*/
+@media screen and (min-width: 769px){
+.boog-header {
+    background-position-y: 290px;
+}
+
+header h1 {
+    font-size: 27pt;
+}
+
+#info {
+    padding-top: 30%;
+}
+
+#design {
+    padding-top: 30%;
+}
+
+#front {
+    padding-top: 30%;
+}
+
+#back {
+    padding-top: 30%;
+}
+
+}
+/*********************************************/
+
+/*Ertussen*/
+@media screen and (min-width: 925px){
+.boog-header {
+    background-position-y: 200px;
+}
+
+#menu {
+    margin: -100px 0 0 -70px;
+}
+
+.container2 {
+    top: 31px;
+    right: -30px;
+}
+
+.particle-wrap {
+    width: 500px;
+    height: 400px;
+}
+
+#info img {
+width: 40%;
+}
+
+#design img {
+width: 40%;
+}
+
+#front img {
+width: 40%;
+}
+
+#back img {
+width: 30%;
+}
+
+}
+/*********************************************/
+
+/*Macbook*/
+@media screen and (min-width: 1400px) {
+  /****************HEADER******************/
+#desktop {
+    display: block;
+}
+
+.boog-header {
+    background-position-y: 190px;
 }
 
 .container{
-    width: 1200px;
+    width: 900px;
     margin: auto;
 }
 
@@ -46,6 +211,7 @@ nav{
 
 .nav > ul {
     float: right;
+    padding-top: 3%;
 }
 
 .a-sub-nav{
@@ -76,42 +242,24 @@ nav{
 }
 
 .nav > img {
-    width:10%;
+    width:12%;
     padding-top: 1%;
     opacity: 0.9;
 }
 
 header h1{
-    width: 100%;;
-    text-align: center;
-    display: block;
-    position: absolute;
-    top: 45%;
-    font-size: 50px;
-    color: #444444;
-    display: flex;
-    align-items: center;
-    font-family: brandon-bold;
-    justify-content: center;
-    z-index: 999;
-}
-
-header h1 .pijl-l{
-    margin-right: 5%
-}
-
-header h1 .pijl-r{
-    margin-left: 5%
+    top: 50%;
+    font-size: 30pt;
 }
 
 header h2{
-    width: 100%;
-    text-align: center;
-    display: block;
-    position: absolute;
-    top: 60%;
-    font-size: 30px;
-    color: #444444;
+    top: 65%;
+    font-size: 20pt;
+}
+
+.container2 {
+    top: 24px;
+    right: -72px;
 }
 
 #menuToggle{
@@ -195,7 +343,8 @@ nav.fill ul li a:hover:after {
     flex-direction: row;
     justify-content: center;
     height: 40vh;
-    padding-bottom: 4%;
+    padding-bottom: 33% !important;
+    padding-top: 20% !important;
 }
 
 #info article {
@@ -204,12 +353,13 @@ nav.fill ul li a:hover:after {
     position: relative;
     text-align: left;
     padding-left: 5%;
+    
 }
 
 #info article > h1{
     color: #ff0000;
     letter-spacing: 2;
-    font-size: 25pt;
+    font-size: 20pt;
     font-family: brandon-bold;
 }
 
@@ -228,6 +378,7 @@ nav.fill ul li a:hover:after {
 
 #info img{
   padding-right: 10%;
+  width: 40% !important;
 }
 
 #info button{
@@ -344,15 +495,13 @@ nav.fill ul li a:hover:after {
 
 #design img{
   padding-left: 10%;
+  width: 40% !important;
 }
 /************/
 
 /* Front-end */
 .boog-front {
-    background-image: url(../images/boog-back.png);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position-y: 300px;
+    background-position-y: 360px;
 }
 
 #front {
@@ -388,6 +537,7 @@ nav.fill ul li a:hover:after {
 
 #front img{
   padding-right: 10%;
+  width: 40% !important;
 }
 /************/
 
@@ -402,13 +552,13 @@ nav.fill ul li a:hover:after {
     background-image: url(../images/boog-back.png);
     background-repeat: no-repeat;
     background-size: cover;
-    background-position-y: 400px;
+    background-position-y: 430px;
 }
 
 #back {
     width: 100%;
-    padding-bottom: 40%;
-    padding-top: 10%;
+    padding-bottom: 20%;
+    padding-top: 5%;
     display: flex;
     align-items: center;
     flex-direction: row;
@@ -439,6 +589,7 @@ nav.fill ul li a:hover:after {
 
 #back img{
   padding-left: 10%;
+  width: 40% !important;
 }
 /************/
 
@@ -451,7 +602,7 @@ nav.fill ul li a:hover:after {
 /* Works */
 #works {
     width: 100%;
-    padding-bottom: 10%;
+    padding-bottom: 40%;
     display: flex;
     align-items: center;
     flex-direction: column;
@@ -501,185 +652,69 @@ footer{
   margin-bottom: 0;
 }
 
-footer p{
-  margin-left: 144px;
-  font-size: 8pt;
-  margin-bottom: 5px;
-  margin-top: 5px;
+footer p {
+    font-size: 12pt;
+    margin-bottom: 5px;
+    margin-top: 5px;
+    margin-left: 3%;
 }
 /************/
 
 /* Particles */
-
 .container2 {
     position: absolute;
     width: 100%;
     min-height: 50vh;
     transform-style: preserve-3d;
-    top: 130px;
-    right: -100px;
+    top: 104px;
+    right: -72px;
     display: block;
-}
-/************/
-}
-/* Macbook 
-@media screen and (min-width: 1040px) {
-  .container {
-    width: 980px;
-}
-
-  .nav > img {
-    width: 10%;
-}
-
-.nav ul li {
-    font-size: 20px;
-}
-
-header h1 {
-    font-size: 40px;
-}
-
-header h1 img {
-    width: 5%;
-}
-
-.container2 {
-    top: 90px;
-    right: -71px;
 }
 
 .particle-wrap {
-    width: 1000px;
-    height: 430px;
+    margin: 0 auto;
+    width: 900px;
+    height: 410px;
+    transform-style: preserve-3d;
+    transform-origin: center center;
+    perspective: 200px;
+    overflow: hidden;
 }
-
+}
+/* Desktop */
+@media screen and (min-width: 1800px) {
 .boog-header {
-    background-position-y: 350px;
-    padding-bottom: 14%;
-}
-
-.boog-design {
-    padding-bottom: 20%;
-}
-
-#info {
-    height: 80vh;
-}
-
-#design {
-    padding-bottom: 20%;
-    padding-top: 18%;
-}
-
-.boog-front {
-    background-position-y: 500px;
-}
-
-#design {
-    padding-bottom: 40%;
-}
-
-#front {
-    padding-top: 21%;
-}
-
-
-}
- /*
-@media screen and (max-width: 1300px) {
-  .nav > img {
-    width: 15%;
-}
-
-.nav.small img{
-  -ms-transition:     all 0.3s ease-out;
-  -moz-transition:    all 0.3s ease-out;
-  -webkit-transition: all 0.3s ease-out;
-  -o-transition:      all 0.3s ease-out;
-  transition:         all 0.3s ease-out;
-  width: 12% !important;
-}
-}
-
-
-
-@media screen and (max-width: 1200px) {
-  nav ul li {
-    padding: 6% 0% 0% 0%;
-}
-header > nav > img {
-    width: 7%;
-}
-}
-
-@media screen and (max-width: 1020px) {
-  nav ul li {
-    padding: 6% 0% 0% 0%;
-}
-
-header > nav > img {
-    width: 7%;
-}
-}
-
-@media screen and (max-width: 900px) {
-  nav ul li {
-    padding: 6% 0% 0% 0%;
-}
-
-header > nav > img {
-    margin-left: 40px;
-    width: 8%;
-}
-
-.contact{
-  margin-right: 20px;
-}
-
-#contact > section > article > form {
-    width: 88%;
-}
-}
-
-
-
-@media screen and (max-width: 720px) {
-  .gallery .mainImg i {
-      color: white;
-  }
-
-  #slide1 > section > article {
-    width: 90%;
-}
-}
-
-@media screen and (max-width: 650px) {
-  .gallery .mainImg {
-    margin-bottom: 10px;
-    height: 370px;
+    background-position-y: 310px !important;
 }
 
 header h1 {
-    font-size: 40px;
+    top: 41% !important;
+    font-size: 30pt !important;
 }
 
-#contact > section > article {
-    border-top: none;
-    padding: 3em 0em 0em 3em;
-}
+header h2 {
+    top: 50% !important;
+    font-size: 20pt !important;
 }
 
-@media screen and (max-width: 450px) {
-  .gallery .mainImg {
-    margin-bottom: 10px;
-    height: 300px;
+.container2 {
+    top: 154px !important;
+    right: -72px !important;
 }
-#slide1 > section > article > p {
-  font-size: 17px
-}
-}
-/*********************************************/
 
+.boog-back-end {    
+    background-position-y: 360px;
+}
+
+#back {
+    padding-bottom: 30%;
+    padding-top: 5%;
+}
+
+#works {
+    padding-bottom: 40%;
+    padding-top: 10%;
+}
+}
 
 /*********/
