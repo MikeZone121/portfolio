@@ -118,15 +118,31 @@ header h1 {
 }
 
 #design {
-    padding-top: 30%;
+    padding-top: 20%;
 }
 
 #front {
-    padding-top: 30%;
+    padding-top: 0%;
 }
 
 #back {
     padding-top: 30%;
+}
+
+#info img {
+width: 50%;
+}
+
+#design img {
+width: 50%;
+}
+
+#front img {
+width: 50%;
+}
+
+#back img {
+width: 30%;
 }
 
 }
@@ -136,6 +152,10 @@ header h1 {
 @media screen and (min-width: 925px){
 .boog-header {
     background-position-y: 200px;
+}
+
+.boog-design {
+    padding-bottom: 32%;
 }
 
 #menu {
@@ -169,19 +189,26 @@ width: 30%;
 }
 
 #info {
-    padding-top: 0%;
+    padding-top: 10%;
 }
 
 #design {
-    padding-top: 0%;
+    padding-top: 10%;
+    padding-bottom: 27%;
 }
 
 #front {
     padding-top: 0%;
+    padding-bottom: 30%;
 }
 
 #back {
-    padding-top: 0%;
+    padding-top: 10%;
+    padding-bottom: 20%;
+}
+
+#works {
+    padding-bottom: 30%;
 }
 
 }
@@ -479,7 +506,7 @@ nav.fill ul li a:hover:after {
 
 #design {
     width: 100%;
-    padding-bottom: 40%;
+    padding-bottom: 35%;
     display: flex;
     align-items: center;
     flex-direction: row;
