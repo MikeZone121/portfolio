@@ -4,13 +4,13 @@
 @$email = $_POST['email'];
 @$telefoon = $_POST['telefoon'];
 if(isset($_POST['submit'])){
-$to = "frieda.haezebrouck@telenet.be, chloedefour@gmail.com";
-$subject = "Contact over huren";
+$to = "mikezone1805@gmail.com";
+$subject = "Contact freelancer Mike Livis";
 
 $message = '
 <html>
 <head>
-<title>Contact Studios Zuidpark</title>
+<title>Contact freelancer Mike Livis</title>
 </head>
 <body>
 <p> Naam:  '."$last_name".'<br> E-mail: '."$email" .'<br> Telefoonnummer: '."$telefoon" . "<br><br>" . $_POST['message'];'.</p>
