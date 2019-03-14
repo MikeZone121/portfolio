@@ -103,6 +103,74 @@ header h2 {
 }
 /*********************************************/
 
+/*Ertussen*/
+@media screen and (min-width: 769px){
+.boog-header {
+    background-position-y: 290px;
+}
+
+header h1 {
+    font-size: 27pt;
+}
+
+#info {
+    padding-top: 30%;
+}
+
+#design {
+    padding-top: 30%;
+}
+
+#front {
+    padding-top: 30%;
+}
+
+#back {
+    padding-top: 30%;
+}
+
+}
+/*********************************************/
+
+/*Ertussen*/
+@media screen and (min-width: 925px){
+.boog-header {
+    background-position-y: 200px;
+}
+
+#menu {
+    margin: -100px 0 0 -70px;
+}
+
+.container2 {
+    top: 31px;
+    right: -30px;
+}
+
+.particle-wrap {
+    width: 500px;
+    height: 400px;
+}
+
+#info img {
+width: 40%;
+}
+
+#design img {
+width: 40%;
+}
+
+#front img {
+width: 40%;
+}
+
+#back img {
+width: 30%;
+}
+
+}
+/*********************************************/
+
 /*Macbook*/
 @media screen and (min-width: 1400px) {
   /****************HEADER******************/
