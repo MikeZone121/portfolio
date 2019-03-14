@@ -1,0 +1,174 @@
+/*CONTACT*/
+.notification{
+    padding: 1% 0%;
+    position: absolute;
+    width: 100%;
+    background: #ff0000b8;
+    text-align: center;
+    bottom: 0;
+    margin: 0;
+    z-index: 99999;
+}
+
+#contact {
+    width: 100%;
+    padding-top: 13%;
+    padding-bottom: 20%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    font-family: brandon-light;
+}
+
+form{
+  width: 95%;
+}
+
+#contact > section {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    background: white;
+    width: 90%;
+}
+
+.group {
+    position: relative;
+    margin-bottom: 45px;
+}
+
+input {
+    font-size: 18px;
+    padding: 10px 10px 10px 5px;
+    -webkit-appearance: none;
+    display: block;
+    background: #ffffff;
+    color: #424242;
+    width: 100%;
+    border: none;
+    border-radius: 0;
+    border-bottom: 1px solid #757575;
+}
+
+input:focus {
+    outline: none;
+}
+
+label {
+    color: #999;
+    font-size: 18px;
+    font-weight: normal;
+    position: absolute;
+    pointer-events: none;
+    left: 5px;
+    top: 10px;
+    top: -8px;
+    -webkit-transition: all 0.2s ease;
+    transition: all 0.2s ease;
+}
+
+input:focus ~ label,
+input.used ~ label {
+    top: -20px;
+    -webkit-transform: scale(.75);
+    transform: scale(.75);
+    left: -2px;
+    /* font-size: 14px; */
+    color: #ff0000;
+}
+
+.highlight {
+    position: absolute;
+    height: 60%;
+    width: 100%;
+    top: 25%;
+    left: 0;
+    pointer-events: none;
+    opacity: 0.5;
+}
+
+#contact button {
+    letter-spacing: 2px;
+    text-align: left;
+    border-radius: 50px;
+    position: relative;
+    overflow: hidden!important;
+    -webkit-transition: all .3s ease-in-out;
+    -moz-transition: all .3s ease-in-out;
+    -o-transition: all .3s ease-in-out;
+    transition: all .3s ease-in-out;
+    z-index: 10;
+    padding: 10px 25px;
+    font-size: 12pt;
+    color: #ffffff;
+    background-color: #ef0404;
+    border: none;
+    cursor: pointer;
+}
+
+#contact button::before {
+    content: '';
+    width: 0%;
+    height: 100%;
+    display: block;
+    background: #a00000;
+    position: absolute;
+    -ms-transform: skewX(-20deg);
+    -webkit-transform: skewX(-20deg);
+    transform: skewX(-20deg);
+    left: -10%;
+    opacity: 1;
+    top: 0;
+    z-index: -12;
+    -moz-transition: all .7s cubic-bezier(0.77, 0, 0.175, 1);
+    -o-transition: all .7s cubic-bezier(0.77, 0, 0.175, 1);
+    -webkit-transition: all .7s cubic-bezier(0.77, 0, 0.175, 1);
+    transition: all .7s cubic-bezier(0.77, 0, 0.175, 1);
+  }
+
+#contact button::after {
+    content: '';
+    width: 0%;
+    height: 100%;
+    display: block;
+    background: #d20101;
+    position: absolute;
+     -ms-transform: skewX(-20deg);
+    -webkit-transform: skewX(-20deg);
+    transform: skewX(-20deg);
+    left: -10%;
+    opacity: 0;
+    top: 0;
+    z-index: -15;
+    -webkit-transition: all .94s cubic-bezier(.2,.95,.57,.99);
+    -moz-transition: all .4s cubic-bezier(.2,.95,.57,.99);
+    -o-transition: all .4s cubic-bezier(.2,.95,.57,.99);
+    transition: all .4s cubic-bezier(.2,.95,.57,.99);
+}
+
+#contact button:hover::before, #contact button:hover::before{
+  opacity:1;
+  width: 116%;
+}
+
+#contact button:hover::after, #contact button:hover::after{
+  opacity:1;
+  width: 120%;
+}
+
+#contact h1{
+    color: #ff0000;
+    letter-spacing: 2;
+    font-size: 20pt;
+    padding-bottom: 5%;
+    font-family: brandon-bold;
+}
+
+#contact article {
+    width: 40%;
+}
+
+
+/********/
