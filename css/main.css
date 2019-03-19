@@ -432,4 +432,9 @@ footer p {
     margin-bottom: 5px;
     margin-top: 5px;
 }
+
+footer a{
+  color: white;
+  text-decoration: none;
+}
 /************/

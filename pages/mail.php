@@ -4,7 +4,7 @@
 @$email = $_POST['email'];
 @$telefoon = $_POST['telefoon'];
 if(isset($_POST['submit'])){
-$to = "mikezone1805@gmail.com";
+$to = "info@mikelivis.be";
 $subject = "Contact freelancer Mike Livis";
 
 $message = '
