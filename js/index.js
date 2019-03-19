@@ -102,3 +102,10 @@ function topFunction() {
   document.body.scrollTop = 0;
   document.documentElement.scrollTop = 0;
 }
+
+
+$( document ).ready(function(){
+            $('.notification').fadeIn('slow', function(){
+               $('.notification').delay(5000).fadeOut(); 
+            });
+        });
